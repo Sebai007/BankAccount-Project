@@ -47,9 +47,9 @@ public class App {
 		accounts.add(new Account(7, "Ashley", 21701.11));
 		accounts.add(new Account(7, "Shunny", 21801.99));
 
-		/*App temp = new App();
-		System.out.println(temp.getAccountDetailsByID(1));
-		System.out.println(temp.getAccountDetailsByBalance(21501.77));
-*/
+		App temp = new App();
+		temp.getAccountDetailsByID(1);
+		temp.getAccountDetailsByBalance(21501.77);
+
 	}
 }
